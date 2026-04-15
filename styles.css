@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,30 +9,23 @@ body{
 }
 .post{ 
     background-color: white;
-    border: 1px solid green;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 600px;
-    height: 100%;
 }
     
 
     
 .post-header{ 
-    border: 1px solid red;
     padding-top: 0;
     width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
 
-.post-img{
-    border: 1px solid red;
-}
-
-.post-body{
-    border: 1px solid red;
-}
 
 img{
     width: 100%;
@@ -55,13 +48,24 @@ img{
 }
 
 .fa-bookmark{
-    margin-right: 20px;
+    margin-left: 247px;
+
 }
 
 .post-header2{
-    border: 1px solid yellow;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 50%;
+}
+
+.post-icons2{
+    display: flex;
+    width: 50%;
+
+}
+
+.post-icons{
+    display: flex;
+    align-items: center;
 }
